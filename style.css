@@ -114,4 +114,8 @@
     #bye-button:hover {
       background-color: skyblue;
     }
+
+img {
+    overflow: scroll;
+}
   
