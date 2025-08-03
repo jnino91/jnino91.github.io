@@ -1,9 +1,199 @@
 <html>
 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+ <head>
+    <title>Minos Front end Web Practice Site</title> 
+    <link href="./Resources/CSS/style.css" type: "text/css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <!--Links to certain parts of page go here -->
+    <nav>
+      <ul class="nav">
+        <li class= "navlink"><a href="#Moon List">List about Da Moon </a></li>
+
+        <li class= "navlink"><a href="#Bodies Lyrics">Bodies Lyrics</a></li>
+   
+        <li class="navlink"><a href="#List of Moon's Gueys">List of Moon's Gueys</a></li>
+  
+        <li class="navlink"><a href="#Table of Alonso Siblings">Table of Alonso Siblings</a></li>
+
+      <li class="navlink"><a href="#Nino Z Rex Video">Nino vs Z-Rex video</a></li>
+
+      <li class="navlink"> <a href="#Form Practice">Form Practice</a></li>      
+      </ul>
+    </nav> 
+
+<hr>
+<main>  
+ <header class="hi-titors">
+      <h1>Hi Titors</h1>
+ </header> 
+    <section class="cozy-titor-shop">
+      <div>
+        <p>I'm using this workspace to practice the HTML stuff I learned so far. So far it isn't too hard, but it is a lot to remember.</p>
+        <a href="https://www.instagram.com/jessicaskawaiishop/?locale=en_US%2Cen_US" target="_blank">Buy cozy things from da Swithor, yo</a>
+        <img src="Resources/CSS/Cozy Vibes.jpeg" height="100px" width="100px" alt="Picture of a cozy pen or something. I don't know. Ask Da titor">
+      </div>
+    </section>
+<hr>
+
+<!-- This is a list about da Moon-->
+ <div> 
+  <p id="Moon List"> <h2>Moon Is</h2>
+  </p> 
+
+   <ol class="moonlist"> 
+        <li>Yo</li> 
+        <li>Crusty</li>
+        <li>Trash</li>
+        <li>HEWO</li>
+        <li> Mah Moonos</li>
+        <li> <em>Le Alacran</em></li>
+    </ol> 
+  </div>
+<hr> 
+<!--This is a message for Gohan-->
+  <p>Hi, <em>Gohan</em>. Da Titor liked smelling your feet when you were a baby. <strong>Ew</strong> </p>
+<hr>
+<!-- Alexa said to put this next part here-->
+  <p class="Thanos"> I am the legend, <strong>Thanos</strong> </p>
+<hr>
+<!-- Bodies Lyrics -->
+<p id="Bodies Lyrics">
+    <h2> "Bodies" lyrics</h2>  
+</p>    
+
+<p> 
+  <em>Here we go, here we go, here we go 
+     now</em> </p>
+    <ol>
+      <li><em>Nothing wrong with me</em></li>
+      <li><em>Nothing wrong with me</em></li>
+      <li><em>Nothing wrong with me</em></li>
+      <li><em>Nothing wrong with me</em> </li>
+    </ol>  
+
+    <ol>
+       <li><em>Something's Got to Give</em></li>
+       <li><em>Something's Got to Give</em></li>
+       <li><em>Something's Got to Give <strong> NOOOOOOOOWWW</strong></em></li>
+     </ol>  
+<hr>
+<!-- List Of Moon's Gueys-->
+
+ <p id="List of Moon's Gueys"> <h2>Moon's Gueys, In Order</h2> </p>
+  <ol>
+    <li>Cody Rhodes</li>
+    <li>CM Punk</li>
+    <li> The Legend, Thanos</li>
+  </ol>  
+  
+
+  <script src="script.js"></script>
+  
+
+<br>
+
+<hr>
+<!-- Table of things-->
+<p id="Table of Alonso Siblings">
+  <h2>Table of Alonso Siblings</h2>
+</p>
+
+<!-- Table of Things goes here-->
+<table> 
+<!-- Table Heading-->
+  <thead>
+    <tr>  
+      <th scope="col"><h4>Name</h4></th> 
+      <th scope="col"><h4>Brother or Titor</h4></th> 
+      <th scope="col"><h4>Age</h4></th>  
+    </tr>  
+  </thead> 
+  
+  <!-- Table Data-->
+  <tbody>
+    <tr> <!--Minos-->
+      <td>Minos</td>
+      <td>Brothor</td>
+      <td> 33</td>
+    </tr>
+    <tr> <!-- Jessie-->
+      <td>Jessie</td>
+      <td>Titor</td>
+      <td>37</td>   
+    </tr>
+    <tr> <!-- Henry-->
+      <td>Henry</td>
+      <td>Brothor</td>
+      <td> 30</td>
+    </tr>
+    <tr> <!--Harvey-->
+      <td>Harvey</td>
+      <td>Brothor</td>
+      <td>30</td>
+    </tr>
+    <tr> <!-- Moonos--> 
+      <td>Moonos</td>
+      <td>Titor</td>
+      <td>22</td>
+    </tr>
+  </tbody>  
+</table>  
+
+<hr>
+
+<media>
+  <p id="Nino Z Rex Video"> 
+    <h2>Nino vs Z Rex Video</h2></p>
+      <a href="https://youtu.be/BesM_0Ni4-A" target="blank">Watch this, yo</a>
+</media>      
+
+<hr>
+
+<!-- make practice forms here-->
+<p id="Form Practice"> 
+  <h2>Here Are My Practice Forms</h2>
+</p>
+<!-- Log In Form-->
+  <form>
+    <h3>Fake Log In</h3>
+      <br>
+      <label for="username">Username</label>
+      <br>
+         <input type="text" name="username" value="Type Username Here">     
+      <br>
+      <label for="password"> Password</label>      
+       <br>
+         <input type="password" name="password">
+  </form>  
+<!-- Crusty Range Form. Heh-->
+
+  <form>
+    <h3> How Crusty is Alexa?</h3>
+      <input type="range" value="3" min="1" max="5"> 
+  </form>  
+     <label><h3>Type Whatever You Want Here</h3></label>
+     <br>
+     <textarea rows="5" cols="15" name="Comments Go Here">Type your comment here</textarea>
+  <!-- Datalist for Siblings-->
+  <form>
+    <label>Pick a Brother or Titor</label>
+      <input type="text" list="Pick a Sibling">
+        <datalist id="Pick a Sibling">
+          <option value="Minos"/>
+          <option value="Moon"/>
+          <option value="Jessie"/>
+          <option value="Henry"/>
+          <option value="Harvey"/>
+        </datalist>  
+   <br>
+   <br>
+     <input id="bye-button" type="submit" value="BYE">   
+    
+  </form>  
+ </main>
 </body>
 
 </html>
