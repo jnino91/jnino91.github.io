@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  nav {
+    position: fixed;
+    border-top: 1px solid brown;
+    background-color: brown;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+  }
+  
+   nav .navlink {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  main {
+  position: relative;
+  top: 50px;
+  border-top: 2px solid green;
+  } 
+  
+  header {
+    text-align: center;
+  }
+    
+  body {
+    background: black;
+    color: #fff;
+    font-family: sans-serif;
+    }
+  
+  h1{
+    color: yellow;
+    background-color; 
+    }
+  
+  h2{
+    color: pink
+  }
+  
+  h3{
+    color: teal;
+    background-color: skyblue;
+    display: inline-block;
+    border: 1px solid teal;
+    border-radius: 5px;
+    }  
+  
+  p{
+    color: green;
+    }
+  
+  ol{
+    color: red
+  }
+  
+  .Thanos {
+    color: purple;
+    position: relative; 
+    display: inline;
+  }
+  
+  .Thanos:hover {
+    color: white;
+  }
+  
+  [href]{
+  color:blue;
+  font-weight: bold;
+  }
+  
+  [href]:hover {
+    color: black;
+  }
+  .moonlist li {
+   color: teal
+  }
+  
+  
+  .cozy-titor-shop {
+    background-color: pink;
+    padding: 5px;
+    }
+  
+  .cozy-titor-shop p {
+       color: teal;
+    }
+  .cozy-titor-shop p:hover {
+    color: black;
+  }
+
+  table {
+  border: 2px solid white;
+  border-radius: 5px;
+    }
+  
+    #bye-button {
+      color: blue;
+      font: helvetica;
+      font-weight: bold;
+      background-color: white;
+      width: 100px;
+      height: 50px;
+      border-radius: 5px;
+    }
+
+    #bye-button:hover {
+      background-color: skyblue;
+    }
+  
